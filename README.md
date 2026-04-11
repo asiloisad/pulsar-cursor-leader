@@ -83,8 +83,8 @@ Power mode isolates all editor operations to the active cursor only. When enable
 
 There are two scopes:
 
-- **Global** (`cursor-leader:power-global` <kbd>Ctrl+Alt+Insert</kbd>): enables power mode for all open editors and any editor opened afterward. The <kbd>⚡</kbd> status bar icon reflects this state and clicking it toggles global power mode.
-- **Editor** (`cursor-leader:power-editor` <kbd>Ctrl+Shift+Alt+Insert</kbd>): toggles power mode for the active editor only, independently of the global state.
+- **Global** (`cursor-leader:power-global`): enables power mode for all open editors and any editor opened afterward. The ⚡ status bar icon reflects this state and clicking it toggles global power mode.
+- **Editor** (`cursor-leader:power-editor`): toggles power mode for the active editor only, independently of the global state.
 
 Use cases:
 
