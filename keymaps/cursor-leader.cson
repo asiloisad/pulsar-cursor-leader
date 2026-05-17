@@ -1,25 +1,12 @@
-'.platform-darwin atom-workspace':
-  'cmd-alt-insert'         : 'cursor-leader:power-global'
+'atom-workspace':
+  'cmdorctrl-alt-insert'   : 'cursor-leader:power-global'
 
-'.platform-darwin atom-text-editor':
-  'cmd-shift-alt-insert'   : 'cursor-leader:power-editor'
-  'cmd-alt-pageup'         : 'cursor-leader:previous'
-  'cmd-alt-pagedown'       : 'cursor-leader:next'
-  'cmd-alt-enter'          : 'cursor-leader:toggle'
-  'cmd-alt-up'             : 'cursor-leader:move-up'
-  'cmd-alt-down'           : 'cursor-leader:move-down'
-  'cmd-alt-left'           : 'cursor-leader:move-left'
-  'cmd-alt-right'          : 'cursor-leader:move-right'
-
-'.platform-win32 atom-workspace, .platform-linux atom-workspace':
-  'ctrl-alt-insert'        : 'cursor-leader:power-global'
-
-'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'ctrl-shift-alt-insert'  : 'cursor-leader:power-editor'
-  'ctrl-alt-pageup'        : 'cursor-leader:previous'
-  'ctrl-alt-pagedown'      : 'cursor-leader:next'
-  'ctrl-alt-enter'         : 'cursor-leader:toggle'
-  'ctrl-alt-up'            : 'cursor-leader:move-up'
-  'ctrl-alt-down'          : 'cursor-leader:move-down'
-  'ctrl-alt-left'          : 'cursor-leader:move-left'
-  'ctrl-alt-right'         : 'cursor-leader:move-right'
+'atom-text-editor':
+  'cmdorctrl-shift-alt-insert': 'cursor-leader:power-editor'
+  'cmdorctrl-alt-pageup'   : 'cursor-leader:previous'
+  'cmdorctrl-alt-pagedown' : 'cursor-leader:next'
+  'cmdorctrl-alt-enter'    : 'cursor-leader:toggle'
+  'cmdorctrl-alt-up'       : 'cursor-leader:move-up'
+  'cmdorctrl-alt-down'     : 'cursor-leader:move-down'
+  'cmdorctrl-alt-left'     : 'cursor-leader:move-left'
+  'cmdorctrl-alt-right'    : 'cursor-leader:move-right'
