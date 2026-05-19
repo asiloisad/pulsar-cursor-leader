@@ -8,7 +8,7 @@
     "single",
     "multi"
   ],
-  "version": "4.1.0",
+  "version": "4.1.1",
   "license": "MIT",
   "engines": {
     "atom": ">=1.132.0 <2.0.0"
